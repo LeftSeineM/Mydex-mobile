@@ -19,7 +19,7 @@
 同步更新 desktop/updater.mjs 的 desktopVersion、Mydex.cs 的显示版本及 AssemblyVersion/FileVersion、installer.nsi 和构建输出目录。构建并验证安装包后，使用离线保管的发布私钥签署清单：
 
 ```sh
-node tools/sign-desktop-release.mjs 0.4.9 dist/Mydex-0.4.9-Setup.exe /private/release-private.pem release-notes.txt desktop-stable.json
+node tools/sign-desktop-release.mjs 0.4.10 dist/Mydex-0.4.10-Setup.exe /private/release-private.pem release-notes.txt desktop-stable.json
 ```
 
 先上传安装包到 downloads 并核对 SHA，再上传清单至 updates/desktop-stable.json。清单应设置 no-store；应用不接受未签名清单。不得把私钥上传静态网站或提交仓库。
@@ -27,7 +27,7 @@ node tools/sign-desktop-release.mjs 0.4.9 dist/Mydex-0.4.9-Setup.exe /private/re
 本次验证：版本比较、篡改签名、错误域名/文件名/大小校验测试通过；真实更新源检查和安装包下载通过；本机从旧版安装至 0.4.8.0，原连接配置和证书哈希不变、连接服务恢复。Mac 的应用内更新尚未实现；本说明只适用于 Windows。
 
 
-## 0.4.9：备用更新源
+## 0.4.10：备用更新源
 
 小主机不可达时，自动从公开 GitHub 仓库 updates/desktop-stable.json 检查同一签名清单，并从对应 desktop-v版本 release 下载同一安装包。只有 GitHub 官方 release-assets / objects 下载域名的 HTTPS 跳转被允许，下载后仍执行相同的签名与大小、哈希校验。国内网络无法访问 GitHub 时仍优先使用原站，两边都不可达则明确报错，不会执行未验证文件。
 

@@ -3,9 +3,9 @@
 # Mydex
 ### 把电脑上的编程对话，带到手机上
 
-**Android 0.2.11 · Windows 0.4.9 · 扫码配对 · 多电脑 · 多工具 · 折叠屏**
+**Android 0.2.11 · Windows 0.4.10 · 扫码配对 · 多电脑 · 多工具 · 折叠屏**
 
-[下载 Android APK](https://github.com/LeftSeineM/Mydex-mobile/releases/download/v0.2.11/Mydex-0.2.11-light.apk) · [下载 Windows 安装包](https://github.com/LeftSeineM/Mydex-mobile/releases/download/desktop-v0.4.9/Mydex-0.4.9-Setup.exe) · [全部版本](https://github.com/LeftSeineM/Mydex-mobile/releases)
+[下载 Android APK](https://github.com/LeftSeineM/Mydex-mobile/releases/download/v0.2.11/Mydex-0.2.11-light.apk) · [下载 Windows 安装包](https://github.com/LeftSeineM/Mydex-mobile/releases/download/desktop-v0.4.10/Mydex-0.4.10-Setup.exe) · [全部版本](https://github.com/LeftSeineM/Mydex-mobile/releases)
 
 [第一次使用](docs/GETTING-STARTED.md) · [完整功能图解](docs/FEATURES.md) · [全部页面截图](docs/SCREENSHOTS.md) · [更新与常见问题](docs/UPDATES.md)
 
