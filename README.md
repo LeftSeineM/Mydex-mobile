@@ -3,9 +3,9 @@
 # Mydex
 ### 把电脑上的编程对话，带到手机上
 
-**Android 0.2.11 · Windows 0.4.10 · 扫码配对 · 多电脑 · 多工具 · 折叠屏**
+**Android 0.2.11 · Windows 0.4.11 · 扫码配对 · 多电脑 · 多工具 · 折叠屏**
 
-[下载 Android APK](https://github.com/LeftSeineM/Mydex-mobile/releases/download/v0.2.11/Mydex-0.2.11-light.apk) · [下载 Windows 安装包](https://github.com/LeftSeineM/Mydex-mobile/releases/download/desktop-v0.4.10/Mydex-0.4.10-Setup.exe) · [全部版本](https://github.com/LeftSeineM/Mydex-mobile/releases)
+[下载 Android APK](https://github.com/LeftSeineM/Mydex-mobile/releases/download/v0.2.11/Mydex-0.2.11-light.apk) · [下载 Windows 安装包](https://github.com/LeftSeineM/Mydex-mobile/releases/download/desktop-v0.4.11/Mydex-0.4.11-Setup.exe) · [全部版本](https://github.com/LeftSeineM/Mydex-mobile/releases)
 
 [第一次使用](docs/GETTING-STARTED.md) · [完整功能图解](docs/FEATURES.md) · [全部页面截图](docs/SCREENSHOTS.md) · [更新与常见问题](docs/UPDATES.md)
 
@@ -29,9 +29,15 @@ Android 0.2.11：内置跨网络连接，手机无需另装组网 APP；每台�
 
 手机截图使用演示数据渲染，避免公开个人项目和对话。下面的第三方工具截图为专用测试会话，功能范围以手册为准。
 
+## 配对只分应用版和网页版
+
+在电脑的「配对手机」中选使用方式，再点击同一个「生成配对二维码」按钮。应用版独立连接这台电脑；网页版经由小主机中继。每次只显示当前方式的二维码。
+
+<table><tr><th>应用版</th><th>网页版</th></tr><tr><td><img src="docs/images/desktop-pair-app.png" width="450" /></td><td><img src="docs/images/desktop-pair-web.png" width="450" /></td></tr></table>
+
 ## 新版：扫一扫，添加一台电脑
 
-电脑 **配对手机 → 显示配对二维码**；手机 **添加电脑 → 扫描电脑二维码 → 确认配对**。二维码两分钟有效、仅可兑换一次，不包含长期访问令牌。扫码只负责配对，电脑地址仍需在手机网络下可达。
+电脑 **配对手机 → 应用版 → 生成配对二维码**；手机 **添加电脑 → 扫描电脑二维码 → 确认配对**。二维码两分钟有效、仅可兑换一次，不包含长期访问令牌。扫码只负责配对，电脑地址仍需在手机网络下可达。
 
 <table><tr><th>电脑生成二维码</th><th>手机扫描入口</th></tr><tr><td><img src="docs/images/desktop-pair-qr.png" width="350" /></td><td><img src="docs/images/add-computer.png" width="300" /></td></tr></table>
 
