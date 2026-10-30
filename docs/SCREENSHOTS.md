@@ -87,3 +87,17 @@ Windows 客户端截图
 ![可选下一步建议，采用后成为草稿](images/prediction.png)
 
 以上为演示数据渲染，不是用户私人对话。
+
+## 字体与间距联动对照（0.2.10）
+
+![60% / 390 宽度](images/density-60-390.png)
+
+![60% / 720 宽度](images/density-60-720.png)
+
+![80% / 390 宽度](images/density-80-390.png)
+
+![80% / 720 宽度](images/density-80-720.png)
+
+![100% / 390 宽度](images/density-100-390.png)
+
+![100% / 720 宽度](images/density-100-720.png)

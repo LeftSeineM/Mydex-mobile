@@ -3,9 +3,9 @@
 # Mydex
 ### 把电脑上的编程对话，带到手机上
 
-**Android 0.2.9 · Windows 0.4.6 · 扫码配对 · 多电脑 · 多工具 · 折叠屏**
+**Android 0.2.10 · Windows 0.4.6 · 扫码配对 · 多电脑 · 多工具 · 折叠屏**
 
-[下载 Android APK](https://github.com/LeftSeineM/Mydex-mobile/releases/download/v0.2.9/Mydex-0.2.9-light.apk) · [下载 Windows 安装包](https://github.com/LeftSeineM/Mydex-mobile/releases/download/v0.2.8/Mydex-0.4.6-Setup.exe) · [全部版本](https://github.com/LeftSeineM/Mydex-mobile/releases)
+[下载 Android APK](https://github.com/LeftSeineM/Mydex-mobile/releases/download/v0.2.10/Mydex-0.2.10-light.apk) · [下载 Windows 安装包](https://github.com/LeftSeineM/Mydex-mobile/releases/download/v0.2.8/Mydex-0.4.6-Setup.exe) · [全部版本](https://github.com/LeftSeineM/Mydex-mobile/releases)
 
 [第一次使用](docs/GETTING-STARTED.md) · [完整功能图解](docs/FEATURES.md) · [全部页面截图](docs/SCREENSHOTS.md) · [更新与常见问题](docs/UPDATES.md)
 
@@ -15,7 +15,7 @@ Mydex 是连接你自己电脑的手机工作台。在手机上选择电脑、�
 
 本仓库公开提供**软件下载、使用手册、截图和问题反馈**。应用源码独立维护于私有仓库。本项目不是 OpenAI、Anthropic、Google、月之暗面、DeepSeek 或智谱的官方客户端。
 
-本次更新：字体调节扩大为 60%～200%，每档 5%，新增恢复 100%；修正 200% 字体下折叠屏侧栏溢出。
+本次更新：小字号时，行间距、消息间距和卡片留白一起收紧，输入框与侧栏也更紧凑；保留按钮点击面积。
 
 ## 看见电脑正在做什么
 
