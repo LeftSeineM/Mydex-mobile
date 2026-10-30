@@ -81,3 +81,9 @@ Windows 客户端截图
 专用测试会话
 
 <img src="images/zcode-glm-conversation.png" width="900" />
+
+## 0.2.7 输入建议
+
+![可选下一步建议，采用后成为草稿](images/prediction.png)
+
+以上为演示数据渲染，不是用户私人对话。

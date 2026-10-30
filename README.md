@@ -3,9 +3,9 @@
 # Mydex
 ### 把电脑上的编程对话，带到手机上
 
-**Android 0.2.6 · Windows 0.4.4 · 扫码配对 · 多电脑 · 多工具 · 折叠屏**
+**Android 0.2.7 · Windows 0.4.5 · 扫码配对 · 多电脑 · 多工具 · 折叠屏**
 
-[下载 Android APK](https://github.com/LeftSeineM/Mydex-mobile/releases/download/v0.2.6/Mydex-0.2.6-light.apk) · [下载 Windows 安装包](https://github.com/LeftSeineM/Mydex-mobile/releases/download/v0.2.5/Mydex-0.4.4-Setup.exe) · [全部版本](https://github.com/LeftSeineM/Mydex-mobile/releases)
+[下载 Android APK](https://github.com/LeftSeineM/Mydex-mobile/releases/download/v0.2.7/Mydex-0.2.7-light.apk) · [下载 Windows 安装包](https://github.com/LeftSeineM/Mydex-mobile/releases/download/v0.2.7/Mydex-0.4.5-Setup.exe) · [全部版本](https://github.com/LeftSeineM/Mydex-mobile/releases)
 
 [第一次使用](docs/GETTING-STARTED.md) · [完整功能图解](docs/FEATURES.md) · [全部页面截图](docs/SCREENSHOTS.md) · [更新与常见问题](docs/UPDATES.md)
 
@@ -15,7 +15,7 @@ Mydex 是连接你自己电脑的手机工作台。在手机上选择电脑、�
 
 本仓库公开提供**软件下载、使用手册、截图和问题反馈**。应用源码独立维护于私有仓库。本项目不是 OpenAI、Anthropic、Google、月之暗面、DeepSeek 或智谱的官方客户端。
 
-本次手机更新：修复非 Codex 已有会话被误判为不能发送；设置新增字体大小（85%–140%）。灰色预测输入建议尚未接入。
+本次更新：打磨浅色对话排版与折叠屏侧栏，模型与模式入口移入输入框；新增可选「下一步建议」，点采用或按 Tab 填入草稿。保留字体大小调整（85%–140%）。
 
 ## 看见电脑正在做什么
 
