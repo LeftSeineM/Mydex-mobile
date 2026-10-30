@@ -3,9 +3,9 @@
 # Mydex
 ### 把电脑上的编程对话，带到手机上
 
-**Android 0.2.10 · Windows 0.4.6 · 扫码配对 · 多电脑 · 多工具 · 折叠屏**
+**Android 0.2.11 · Windows 0.4.8 · 扫码配对 · 多电脑 · 多工具 · 折叠屏**
 
-[下载 Android APK](https://github.com/LeftSeineM/Mydex-mobile/releases/download/v0.2.10/Mydex-0.2.10-light.apk) · [下载 Windows 安装包](https://github.com/LeftSeineM/Mydex-mobile/releases/download/v0.2.8/Mydex-0.4.6-Setup.exe) · [全部版本](https://github.com/LeftSeineM/Mydex-mobile/releases)
+[下载 Android APK](https://github.com/LeftSeineM/Mydex-mobile/releases/download/v0.2.11/Mydex-0.2.11-light.apk) · [下载 Windows 安装包](https://app.leftseinem.dpdns.org/downloads/Mydex-0.4.8-Setup.exe) · [全部版本](https://github.com/LeftSeineM/Mydex-mobile/releases)
 
 [第一次使用](docs/GETTING-STARTED.md) · [完整功能图解](docs/FEATURES.md) · [全部页面截图](docs/SCREENSHOTS.md) · [更新与常见问题](docs/UPDATES.md)
 
@@ -15,7 +15,13 @@ Mydex 是连接你自己电脑的手机工作台。在手机上选择电脑、�
 
 本仓库公开提供**软件下载、使用手册、截图和问题反馈**。应用源码独立维护于私有仓库。本项目不是 OpenAI、Anthropic、Google、月之暗面、DeepSeek 或智谱的官方客户端。
 
-本次更新：小字号时，行间距、消息间距和卡片留白一起收紧，输入框与侧栏也更紧凑；保留按钮点击面积。
+Android 0.2.11：内置跨网络连接，手机无需另装组网 APP；每台电脑独立连接，小主机关机不影响连接在线笔记本。首次需登录与电脑相同的 Tailscale 账号。[配置教程与验证范围](docs/ANDROID-MESH.md)。
+
+## 新增：应用内跨网络连接
+
+<table><tr><th>手机连接设置</th><th>折叠屏连接设置</th></tr><tr><td><img src="docs/images/mesh-390.png" width="280" /></td><td><img src="docs/images/mesh-720.png" width="500" /></td></tr></table>
+
+以上为演示数据渲染的界面截图，不代表真实手机已完成联网验证。Tailscale 提供设备协调及必要的加密中继；此连接不依赖用户的小主机。电脑仍需开机，首次登录及实际蜂窝网络连通需在手机上完成。[查看完整步骤 →](docs/ANDROID-MESH.md)
 
 ## 看见电脑正在做什么
 
