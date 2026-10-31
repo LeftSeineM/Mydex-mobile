@@ -109,3 +109,7 @@ Windows 客户端截图
 ## 安卓删除电脑（演示数据）
 
 ![安卓删除电脑](images/delete-computer-native.png)
+
+## 0.2.14 设置中的设备管理入口（测试截图）
+
+![管理已添加电脑](images/add-computer.png)
