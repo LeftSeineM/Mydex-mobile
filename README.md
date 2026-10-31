@@ -7,6 +7,8 @@
 
 [下载 Android APK](https://github.com/LeftSeineM/Mydex-mobile/releases/download/v0.2.11/Mydex-0.2.11-light.apk) · [下载 Windows 安装包](https://github.com/LeftSeineM/Mydex-mobile/releases/download/desktop-v0.4.12/Mydex-0.4.12-Setup.exe) · [全部版本](https://github.com/LeftSeineM/Mydex-mobile/releases)
 
+[Mac 补丁版 / 测试版下载](https://app.leftseinem.dpdns.org/macos.html) · 补丁版需先在电脑打开对话；测试版尝试自动载入与手机新建，首次需授权、未真机验证。
+
 [第一次使用](docs/GETTING-STARTED.md) · [完整功能图解](docs/FEATURES.md) · [全部页面截图](docs/SCREENSHOTS.md) · [更新与常见问题](docs/UPDATES.md)
 
 </div>
