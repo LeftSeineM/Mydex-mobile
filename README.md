@@ -3,9 +3,9 @@
 # Mydex
 ### 把电脑上的编程对话，带到手机上
 
-**Android 0.2.14 · Windows 0.4.14 · 扫码配对 · 多电脑 · 多工具 · 折叠屏**
+**Android 0.2.15 · Windows 0.4.15 · 扫码配对 · 多电脑 · 多工具 · 折叠屏**
 
-[下载 Android APK](https://github.com/LeftSeineM/Mydex-mobile/releases/download/v0.2.14/Mydex-0.2.14-light.apk) · [下载 Windows 安装包](https://github.com/LeftSeineM/Mydex-mobile/releases/download/desktop-v0.4.14/Mydex-0.4.14-Setup.exe) · [全部版本](https://github.com/LeftSeineM/Mydex-mobile/releases)
+[下载 Android APK](https://github.com/LeftSeineM/Mydex-mobile/releases/download/v0.2.15/Mydex-0.2.15-light.apk) · [下载 Windows 安装包](https://github.com/LeftSeineM/Mydex-mobile/releases/download/desktop-v0.4.15/Mydex-0.4.15-Setup.exe) · [全部版本](https://github.com/LeftSeineM/Mydex-mobile/releases)
 
 [Mac 补丁版 / 测试版下载](https://app.leftseinem.com/macos.html) · 补丁版需先在电脑打开对话；测试版尝试自动载入与手机新建，首次需授权、未真机验证。
 
@@ -17,7 +17,7 @@ Mydex 是连接你自己电脑的手机工作台。在手机上选择电脑、�
 
 本仓库公开提供**软件下载、使用手册、截图和问题反馈**。应用源码独立维护于私有仓库。本项目不是 OpenAI、Anthropic、Google、月之暗面、DeepSeek 或智谱的官方客户端。
 
-Android 0.2.14：无需 Tailscale 账号，扫码后优先局域网与当前地址直连，无法直连时通过小主机提供的加密备用通道连接。小主机离线时，同一局域网仍可直连；跨网络连接不保证可用。
+Android 0.2.15：无需 Tailscale 账号，扫码后优先局域网与当前地址直连，无法直连时通过小主机提供的加密备用通道连接。小主机离线时，同一局域网仍可直连；跨网络连接不保证可用。
 
 <small>使用 VPN 时建议选择规则／分流模式；若无法连接，请关闭全局／TUN 模式后重试。</small>
 
@@ -33,7 +33,7 @@ Android 0.2.14：无需 Tailscale 账号，扫码后优先局域网与当前地�
 
 ## 网页版：字号记忆与设备管理
 
-网页版登录页和会话设置均支持 60%–200% 字号，设置只保存在当前浏览器，不随账号同步到其他手机。电脑选择框旁可删除绑定，电脑文件和原对话不受影响。Windows 0.4.14 起重复扫码复用已有电脑记录。网页版已开放邮箱验证码注册，登录后支持网页内扫码或相册识别配对。[网页版说明](docs/WEB.md)。
+网页版登录页和会话设置均支持 60%–200% 字号，设置只保存在当前浏览器，不随账号同步到其他手机。电脑选择框旁可删除绑定，电脑文件和原对话不受影响。Windows 0.4.15 起重复扫码复用已有电脑记录。网页版已开放邮箱验证码注册，登录后支持网页内扫码或相册识别配对。[网页版说明](docs/WEB.md)。
 
 <table><tr><th>统一中英文字体 · 75% 字号</th><th>删除电脑绑定</th></tr><tr><td><img src="docs/images/web-projects-75.png" width="300" /></td><td><img src="docs/images/web-delete-computer.png" width="300" /></td></tr></table>
 

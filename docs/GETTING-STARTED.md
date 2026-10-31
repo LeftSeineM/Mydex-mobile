@@ -1,6 +1,6 @@
 # 安装与扫码配对
 
-适用 Android 0.2.14 / Windows 0.4.14 · 2026-11-01
+适用 Android 0.2.15 / Windows 0.4.15 · 2026-11-01
 
 [首页](../README.md) · [下载](https://github.com/LeftSeineM/Mydex-mobile/releases/latest) · [功能图解](FEATURES.md)
 
