@@ -101,3 +101,7 @@ Windows 客户端截图
 ![100% / 390 宽度](images/density-100-390.png)
 
 ![100% / 720 宽度](images/density-100-720.png)
+
+## 权限与底部交互（演示数据）
+
+[查看权限切换、审批和问题卡片截图](PERMISSIONS.md)。

@@ -1,8 +1,12 @@
 # 更新与版本
 
-当前版本：Android 0.2.10（13） / Windows 0.4.6。
+当前版本：Android 0.2.12（15） / Windows 0.4.13 / Mac 测试版 0.5.1-preview.2。
 
 [下载最新版本](https://github.com/LeftSeineM/Mydex-mobile/releases/latest) · [首页](../README.md)
+
+## 本次更新
+
+新增 Codex 权限状态显示与手动切换；审批、选择题和填空题固定在输入框上方。权限切换用于后续消息，不自动回答已有请求。 [权限与问题交互说明](PERMISSIONS.md)。
 
 ## 手机更新
 
