@@ -105,3 +105,7 @@ Windows 客户端截图
 ## 权限与底部交互（演示数据）
 
 [查看权限切换、审批和问题卡片截图](PERMISSIONS.md)。
+
+## 安卓删除电脑（演示数据）
+
+![安卓删除电脑](images/delete-computer-native.png)

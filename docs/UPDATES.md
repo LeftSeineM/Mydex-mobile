@@ -1,10 +1,14 @@
 # 更新与版本
 
-当前版本：Android 0.2.12（15） / Windows 0.4.13 / Mac 测试版 0.5.1-preview.2。
+当前版本：Android 0.2.13（16） / Windows 0.4.13 / Mac 测试版 0.5.1-preview.2。
 
 [下载最新版本](https://github.com/LeftSeineM/Mydex-mobile/releases/latest) · [首页](../README.md)
 
-## 本次更新
+## Android 0.2.13
+
+修复安卓不能删除电脑的问题：支持删除离线电脑，清除对应连接凭据和当前缓存，保留电脑原会话及其他设备；同一电脑换地址后重新配对自动合并。现有连接方式保持不变，新的轻量自动联网仍在独立开发。
+
+## Android 0.2.12
 
 新增 Codex 权限状态显示与手动切换；审批、选择题和填空题固定在输入框上方。权限切换用于后续消息，不自动回答已有请求。 [权限与问题交互说明](PERMISSIONS.md)。
 
