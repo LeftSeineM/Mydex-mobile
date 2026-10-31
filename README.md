@@ -7,7 +7,7 @@
 
 [下载 Android APK](https://github.com/LeftSeineM/Mydex-mobile/releases/download/v0.2.14/Mydex-0.2.14-light.apk) · [下载 Windows 安装包](https://github.com/LeftSeineM/Mydex-mobile/releases/download/desktop-v0.4.14/Mydex-0.4.14-Setup.exe) · [全部版本](https://github.com/LeftSeineM/Mydex-mobile/releases)
 
-[Mac 补丁版 / 测试版下载](https://app.leftseinem.dpdns.org/macos.html) · 补丁版需先在电脑打开对话；测试版尝试自动载入与手机新建，首次需授权、未真机验证。
+[Mac 补丁版 / 测试版下载](https://app.leftseinem.com/macos.html) · 补丁版需先在电脑打开对话；测试版尝试自动载入与手机新建，首次需授权、未真机验证。
 
 [第一次使用](docs/GETTING-STARTED.md) · [完整功能图解](docs/FEATURES.md) · [全部页面截图](docs/SCREENSHOTS.md) · [更新与常见问题](docs/UPDATES.md)
 
@@ -117,9 +117,9 @@ Android 0.2.14：无需 Tailscale 账号，扫码后优先局域网与当前地�
 
 更新：2026-11-01，网页版本 2026.11.01.4。
 
-1. [打开网页版](https://app.leftseinem.dpdns.org/connect/)，用自己的邮箱验证注册。已有账号可选择邮箱验证码登录或密码登录。
+1. [打开网页版](https://app.leftseinem.com/connect/)，用自己的邮箱验证注册。已有账号可选择邮箱验证码登录或密码登录。
 2. 电脑打开 Mydex → 配对手机 → 网页版，生成二维码。
 3. 手机网页点击“扫描电脑配对码”，也可从相册读取；核对确认码后绑定。
 4. 电脑在线后打开会话。相同账号换设备保留绑定，历史对话从自己的在线电脑加载，不同账号隔离。
 
-验证码十分钟内有效且仅用一次。浏览器完整链路及账号隔离测试通过；手机物理摄像头仍待真机复测。详见[网页教程](https://app.leftseinem.dpdns.org/apple-guide.html)。
+验证码十分钟内有效且仅用一次。浏览器完整链路及账号隔离测试通过；手机物理摄像头仍待真机复测。详见[网页教程](https://app.leftseinem.com/apple-guide.html)。

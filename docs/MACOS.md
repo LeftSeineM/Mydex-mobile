@@ -1,6 +1,6 @@
 # Mydex · Mac 下载
 
-[打开下载页：补丁版 / 测试版](https://app.leftseinem.dpdns.org/macos.html)
+[打开下载页：补丁版 / 测试版](https://app.leftseinem.com/macos.html)
 
 - **补丁版**：已有会话续聊；需先在电脑打开对应对话。
 - **测试版 0.5.1-preview.3**：尝试自动打开原会话、手机新建；首次需授权，尚未真机验证。

@@ -2,8 +2,8 @@
 
 2026-10-30。Android 保持原 APK；iPhone / 纯血鸿蒙用网页；电脑继续本机 Mydex。
 
-入口：https://app.leftseinem.dpdns.org/connect/
-教程：https://app.leftseinem.dpdns.org/apple-guide.html
+入口：https://app.leftseinem.com/connect/
+教程：https://app.leftseinem.com/apple-guide.html
 
 ## 使用
 
@@ -59,12 +59,12 @@ relay.test.mjs、gateway.test.mjs、web-access.test.mjs 验证账号隔离、配
 
 更新：2026-11-01，网页版本 2026.11.01.4。
 
-1. [打开网页版](https://app.leftseinem.dpdns.org/connect/)，用自己的邮箱验证注册。已有账号可选择邮箱验证码登录或密码登录。
+1. [打开网页版](https://app.leftseinem.com/connect/)，用自己的邮箱验证注册。已有账号可选择邮箱验证码登录或密码登录。
 2. 电脑打开 Mydex → 配对手机 → 网页版，生成二维码。
 3. 手机网页点击“扫描电脑配对码”，也可从相册读取；核对确认码后绑定。
 4. 电脑在线后打开会话。相同账号换设备保留绑定，历史对话从自己的在线电脑加载，不同账号隔离。
 
-验证码十分钟内有效且仅用一次。浏览器完整链路及账号隔离测试通过；手机物理摄像头仍待真机复测。详见[网页教程](https://app.leftseinem.dpdns.org/apple-guide.html)。
+验证码十分钟内有效且仅用一次。浏览器完整链路及账号隔离测试通过；手机物理摄像头仍待真机复测。详见[网页教程](https://app.leftseinem.com/apple-guide.html)。
 
 
 网页版本 2026.11.01.5：新注册密码至少 8 位，包含英文字母和数字，符号可选（最长 200 位）。已有密码不修改，密码登录不套用新注册复杂度规则。
