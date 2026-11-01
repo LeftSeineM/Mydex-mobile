@@ -1,125 +1,55 @@
 <div align="center">
 
 # Mydex
-### 把电脑上的编程对话，带到手机上
 
-**Android 0.2.16 · Windows 0.4.16 · 扫码配对 · 多电脑 · 多工具 · 折叠屏**
+**把电脑上的编程对话，带到手机上。**
 
-[下载 Android APK](https://github.com/LeftSeineM/Mydex-mobile/releases/download/v0.2.16/Mydex-0.2.16-light.apk) · [下载 Windows 安装包](https://github.com/LeftSeineM/Mydex-mobile/releases/download/desktop-v0.4.16/Mydex-0.4.16-Setup.exe) · [全部版本](https://github.com/LeftSeineM/Mydex-mobile/releases)
-
-[Mac 补丁版 / 测试版下载](https://app.leftseinem.dpdns.org/macos.html) · 补丁版需先在电脑打开对话；测试版尝试自动载入与手机新建，首次需授权、未真机验证。
-
-[第一次使用](docs/GETTING-STARTED.md) · [完整功能图解](docs/FEATURES.md) · [全部页面截图](docs/SCREENSHOTS.md) · [更新与常见问题](docs/UPDATES.md)
+[下载安装](https://app.leftseinem.dpdns.org/) · [打开网页版](https://app.leftseinem.dpdns.org/connect/) · [完整教程](docs/GETTING-STARTED.md) · [问题反馈](https://github.com/LeftSeineM/Mydex-mobile/issues)
 
 </div>
 
-Mydex 是连接你自己电脑的手机工作台。在手机上选择电脑、查看项目和原会话，继续发言、跟进任务进展。模型账号、API 密钥和任务执行都留在电脑端。
+Mydex 连接你自己的电脑，让你在手机上查看项目和已有对话，跟进任务并与已适配的工具交互。模型账号、API 配置和任务执行留在电脑端。
 
-本仓库公开提供**软件下载、使用手册、截图和问题反馈**。应用源码独立维护于私有仓库。本项目不是 OpenAI、Anthropic、Google、月之暗面、DeepSeek 或智谱的官方客户端。
+## 快速开始
 
-Android 0.2.16：无需 Tailscale 账号，扫码后优先局域网与当前地址直连，无法直连时通过小主机提供的加密备用通道连接。小主机离线时，同一局域网仍可直连；跨网络连接不保证可用。
+1. **在电脑上安装 Mydex。** 打开 [下载页面](https://app.leftseinem.dpdns.org/)，选择 Windows 或 Mac 版本。建议把下面这段话交给电脑上的 AI 助手，协助安装和检查：
 
-<small>使用 VPN 时建议选择规则／分流模式；若无法连接，请关闭全局／TUN 模式后重试。</small>
+   > 请从 https://app.leftseinem.dpdns.org/ 下载适合这台电脑的 Mydex，安装到我选择的位置并保留已有配置。检查 Coding 工具和原会话的接入，问我使用手机网页版还是 Android 应用版，再启动连接并打开对应配对二维码。需要登录、授权或扫码时告诉我，不要泄露密钥；未实际连通不要说成功。
 
-## 修复：安卓设备删除
+2. **选择手机使用方式。** Android 可安装 APK；iPhone、纯血鸿蒙及其他支持现代浏览器的设备可打开 [网页版](https://app.leftseinem.dpdns.org/connect/)并按提示登录。
+3. **扫码配对。** 电脑打开 Mydex 的「配对手机」，选择与手机一致的方式，生成二维码；手机添加电脑并扫码。每台电脑分别配对。
+4. **打开会话。** 保持电脑和需要使用的 Coding 工具运行，在手机选择电脑、工具、项目和会话。支持的操作以工具和实际连接状态为准。
 
-设置 → 管理已添加电脑，可删除任意已保存电脑，离线也能删；电脑原会话保留。重新配对同一证书与凭据的电脑时自动合并旧地址记录。
+[图文安装与配对教程 →](docs/GETTING-STARTED.md) · [网页版教程 →](docs/WEB.md) · [Mac 安装说明 →](docs/MACOS.md)
 
-![安卓删除电脑（演示数据）](docs/images/delete-computer-native.png)
+如果安装或连接遇到问题，也可以把下面这句话交给电脑上的 AI 助手：
 
-## 新增：权限切换与底部问题
+> 请检查并修复本机 Mydex 安装和连接，应用位于【填写安装位置】。保留已有配置，确认服务就绪后打开手机配对二维码；需要我扫码或授权时告诉我，不要泄露密钥。
 
-新增 Codex 权限状态显示与手动切换；审批、选择题和填空题固定在输入框上方。权限切换用于后续消息，不自动回答已有请求。 [查看图解](docs/PERMISSIONS.md)。
+使用 VPN 时建议选择规则／分流模式；连接失败时可关闭全局／TUN 模式后重试。手机删除电脑：**设置 → 管理已添加电脑**。
 
-## 网页版：字号记忆与设备管理
+## 界面一览
 
-网页版登录页和会话设置均支持 60%–200% 字号，设置只保存在当前浏览器，不随账号同步到其他手机。电脑选择框旁可删除绑定，电脑文件和原对话不受影响。Windows 0.4.16 起重复扫码复用已有电脑记录。网页版已开放邮箱验证码注册，登录后支持网页内扫码或相册识别配对。[网页版说明](docs/WEB.md)。
+<table><tr><th>手机项目与对话</th><th>对话与运行步骤</th></tr><tr><td><img src="docs/images/projects.png" width="300" alt="手机项目列表" /></td><td><img src="docs/images/conversation.png" width="300" alt="手机对话页面" /></td></tr></table>
 
-<table><tr><th>统一中英文字体 · 75% 字号</th><th>删除电脑绑定</th></tr><tr><td><img src="docs/images/web-projects-75.png" width="300" /></td><td><img src="docs/images/web-delete-computer.png" width="300" /></td></tr></table>
+<table><tr><th>折叠屏双栏</th><th>电脑连接与工具</th></tr><tr><td><img src="docs/images/foldable.png" width="500" alt="折叠屏双栏页面" /></td><td><img src="docs/images/desktop-tools.png" width="500" alt="电脑工具页面" /></td></tr></table>
 
-以上为浏览器中的演示数据截图。
+截图使用演示数据；详细功能和各工具的实际适配条件见下方文档。
 
-## 新增：应用内跨网络连接
+## 功能与使用说明
 
-<table><tr><th>手机连接设置</th><th>折叠屏连接设置</th></tr><tr><td><img src="docs/images/mesh-390.png" width="280" /></td><td><img src="docs/images/mesh-720.png" width="500" /></td></tr></table>
+- **多电脑**：每台电脑单独配对，手机集中选择；可删除不再使用的设备。
+- **多工具与原会话**：电脑端负责检测和接入 Coding 工具。是否能查看、继续发言或使用审批等功能，取决于工具、版本及适配状态。
+- **任务过程**：查看消息、运行步骤和截图；长内容与批量脚本支持收起。
+- **手机与折叠屏**：字号可调，宽屏展开时可并排查看导航与对话。
+- **连接方式**：应用版优先尝试直连，必要时使用加密备用通道；网页版依赖中继和在线电脑。不同网络条件下的连通性可能不同。
 
-以上为演示数据渲染的界面截图，不代表真实手机已完成联网验证。Tailscale 提供设备协调及必要的加密中继；此连接不依赖用户的小主机。电脑仍需开机，首次登录及实际蜂窝网络连通需在手机上完成。[查看完整步骤 →](docs/ANDROID-MESH.md)
+[完整功能图解](docs/FEATURES.md) · [全部页面截图](docs/SCREENSHOTS.md) · [连接与网络说明](docs/ANDROID-MESH.md) · [权限与审批](docs/PERMISSIONS.md)
 
-## 看见电脑正在做什么
+## 反馈与项目说明
 
-<table><tr><th>项目与最近对话</th><th>对话与运行步骤</th></tr><tr><td><img src="docs/images/projects.png" width="300" /></td><td><img src="docs/images/conversation.png" width="300" /></td></tr></table>
+[提交问题](https://github.com/LeftSeineM/Mydex-mobile/issues) · [邮件联系开发者：348897402@qq.com](mailto:348897402@qq.com)
 
-手机截图使用演示数据渲染，避免公开个人项目和对话。下面的第三方工具截图为专用测试会话，功能范围以手册为准。
+反馈时请说明使用的工具、操作步骤和错误提示；截图中请遮盖访问令牌、API Key 和配对信息。
 
-## 配对只分应用版和网页版
-
-在电脑的「配对手机」中选使用方式，再点击同一个「生成配对二维码」按钮。应用版独立连接这台电脑；网页版经由小主机中继。每次只显示当前方式的二维码。
-
-<table><tr><th>应用版</th><th>网页版</th></tr><tr><td><img src="docs/images/desktop-pair-app.png" width="450" /></td><td><img src="docs/images/desktop-pair-web.png" width="450" /></td></tr></table>
-
-## 新版：扫一扫，添加一台电脑
-
-电脑 **配对手机 → 应用版 → 生成配对二维码**；手机 **添加电脑 → 扫描电脑二维码 → 确认配对**。二维码两分钟有效、仅可兑换一次，不包含长期访问令牌。扫码只负责配对，电脑地址仍需在手机网络下可达。
-
-<table><tr><th>电脑生成二维码</th><th>手机扫描入口</th></tr><tr><td><img src="docs/images/desktop-pair-qr.png" width="350" /></td><td><img src="docs/images/add-computer.png" width="300" /></td></tr></table>
-
-示例二维码来自隔离的 UI 演示，不可用于连接真实电脑。无相机或不方便扫码时，可继续使用复制、粘贴配对。
-
-## 折叠屏：展开就是双栏工作台
-
-<img src="docs/images/foldable.png" width="900" />
-
-展开左侧项目与会话导航、右侧对话；折回竖屏后继续当前任务。长文本可收起，一轮脚本集中到运行过程里，避免满屏执行日志。
-
-## 电脑端：每台电脑独立连接
-
-<img src="docs/images/desktop-tools.png" width="900" />
-
-电脑负责发现工具、提供会话接口和执行任务。手机保存多台电脑的独立连接，任意一台关机不会要求另一台代转。电脑端还有连接状态、托盘和登录自启设置。
-
-## 支持哪些工具
-
-| 工具 | 已验证的连接能力 | 使用条件 |
-| --- | --- | --- |
-| Codex 桌面 | 项目、原会话、消息与受支持的控制和审批 | 原桌面运行，接口可用 |
-| Claude Desktop | 原会话基础文字续聊与上下文 | 与版本匹配的本地兼容桥；审批在电脑 |
-| Kimi Code Desktop | 原会话基础文字续聊与上下文 | 桌面本地服务运行 |
-| DeepSeek Harness | 原会话基础文字续聊与上下文 | 本地兼容桥；审批在电脑 |
-| ZCode / GLM | 原会话基础文字续聊与上下文 | 本地兼容桥；已实测 GLM 会话 |
-| Gemini CLI | 当前交互窗口的原会话基础文字续聊 | 保持窗口运行；旧会话先在 Gemini 恢复 |
-
-安装 APK 不会自动给第三方电脑应用安装兼容桥。工具页“发现进程”“可读取”“可续聊”是不同能力；未接通的工具不会冒充可控制。各工具不会自动获得 Codex 的模型、快速、队列和目标控制。复杂工具调用和所有附件格式尚未逐项验证。
-
-## 从安装到第一次对话
-
-1. 下载并安装 Windows 连接器和 Android APK，无需 Google Play。
-2. 在电脑打开要使用的 Coding 工具，配置 Mydex 本机可达 HTTPS 地址并启动连接。
-3. 手机扫描电脑二维码，确认电脑名称；配对成功后自动保存连接。
-4. 在手机选择电脑、工具和已有会话，输入消息继续交流。
-5. 添加更多电脑时，在每台电脑重复扫码。后续更新从设置中检查。
-
-[查看完整图文安装教程 →](docs/GETTING-STARTED.md)
-
-## 每个环节都有说明
-
-[完整功能图解](docs/FEATURES.md) 覆盖电脑连接、工具选择、项目与会话、运行状态、脚本折叠、截图缩放、审批、Codex 控制、折叠屏、托盘、自启、更新与数据管理。
-
-[全部页面截图](docs/SCREENSHOTS.md) 收录手机、折叠屏、电脑页面，以及 Kimi、DeepSeek、ZCode 的原会话接入测试图。没有实拍的系统相机界面不以设计图冒充。
-
-## 反馈
-
-[提交问题](https://github.com/LeftSeineM/Mydex-mobile/issues) · [联系开发者：348897402@qq.com](mailto:348897402@qq.com)
-
-反馈请附版本号、工具名称、出错步骤和已遮盖隐私的截图。不要公开访问令牌、模型 API Key 或完整配对文本。
-
-
-## 网页版：注册、验证码登录与扫码配对
-
-更新：2026-11-01，网页版本 2026.11.01.4。
-
-1. [打开网页版](https://app.leftseinem.dpdns.org/connect/)，用自己的邮箱验证注册。已有账号可选择邮箱验证码登录或密码登录。
-2. 电脑打开 Mydex → 配对手机 → 网页版，生成二维码。
-3. 手机网页点击“扫描电脑配对码”，也可从相册读取；核对确认码后绑定。
-4. 电脑在线后打开会话。相同账号换设备保留绑定，历史对话从自己的在线电脑加载，不同账号隔离。
-
-验证码十分钟内有效且仅用一次。浏览器完整链路及账号隔离测试通过；手机物理摄像头仍待真机复测。详见[网页教程](https://app.leftseinem.dpdns.org/apple-guide.html)。
+本仓库公开提供下载、教程和截图；应用源码独立维护于私有仓库。Mydex 不是相关 AI 工具厂商的官方客户端。
