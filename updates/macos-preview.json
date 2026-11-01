@@ -1,21 +1,21 @@
 {
-  "version": "0.5.1-preview.4",
+  "version": "0.5.1-preview.5",
   "channel": "preview",
-  "sourceCommit": "e4a765b",
-  "downloadPage": "https://app.leftseinem.com/macos.html",
+  "sourceCommit": "15ce0cf",
+  "downloadPage": "https://app.leftseinem.dpdns.org/macos.html",
   "limitations": "首次需授权，尚未真机验证；保持 Mac 已解锁、Codex 已登录。",
   "files": [
     {
-      "name": "Mydex-0.5.1-preview.4-macOS-arm64.dmg",
-      "size": 49225389,
-      "sha256": "9ae21716af32f0860e90edf11dfa1d640bf64abebcf1333632ddcfd3b2ee2b1e",
-      "url": "https://app.leftseinem.com/downloads/Mydex-0.5.1-preview.4-macOS-arm64.dmg"
+      "name": "Mydex-0.5.1-preview.5-macOS-arm64.dmg",
+      "size": 49224713,
+      "sha256": "ddd3954dd92a005e99cb817e63449a7141dae0798cf84f5da3468e35af41fa2d",
+      "url": "https://app.leftseinem.dpdns.org/downloads/Mydex-0.5.1-preview.5-macOS-arm64.dmg"
     },
     {
-      "name": "Mydex-0.5.1-preview.4-macOS-x86_64.dmg",
-      "size": 50920188,
-      "sha256": "66c00047e62a166a00bc3e7e53246f5f0754c82d5a18af235a0fec1f55b65a1d",
-      "url": "https://app.leftseinem.com/downloads/Mydex-0.5.1-preview.4-macOS-x86_64.dmg"
+      "name": "Mydex-0.5.1-preview.5-macOS-x86_64.dmg",
+      "size": 50919755,
+      "sha256": "7ce8f90f167c8796e104b9258d15badb42f5a7b088e434afbab63ef7789698e5",
+      "url": "https://app.leftseinem.dpdns.org/downloads/Mydex-0.5.1-preview.5-macOS-x86_64.dmg"
     }
   ],
   "patched": [
