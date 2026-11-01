@@ -1,8 +1,12 @@
 # 更新与版本
 
-当前版本：Android 0.2.16（19） / Windows 0.4.16 / Mac 测试版 0.5.1-preview.5。
+当前版本：Android 0.2.16（19） / Windows 0.4.17 / Mac 测试版 0.5.1-preview.5。
 
 [下载最新版本](https://github.com/LeftSeineM/Mydex-mobile/releases/latest) · [首页](../README.md)
+
+## Windows 0.4.17
+
+工具接入新增 Claude Desktop 兼容桥的一键安装和还原。安装时检查程序结构、备份原文件；请先退出 Claude。安装和还原已用 Windows Claude Desktop 2.42304.0 的原文件副本验证，其他版本与未来更新不保证兼容。
 
 ## Android 0.2.16
 
