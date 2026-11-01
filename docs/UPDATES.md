@@ -1,8 +1,12 @@
 # 更新与版本
 
-当前版本：Android 0.2.16（19） / Windows 0.4.18 / Mac 测试版 0.5.1-preview.5。
+当前版本：Android 0.2.16（19） / Windows 0.4.19 / Mac 测试版 0.5.1-preview.5。
 
 [下载最新版本](https://app.leftseinem.dpdns.org/) · [首页](../README.md)
+
+## Windows 0.4.19
+
+修复“安装并重启”时更新助手没有启动的问题，并在安装后重新打开窗口。旧版受此问题影响时，请先从官网手动下载安装一次 0.4.19，保留原有安装位置与配置。
 
 ## Windows 0.4.18
 

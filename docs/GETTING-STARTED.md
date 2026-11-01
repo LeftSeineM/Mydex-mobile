@@ -1,6 +1,6 @@
 # 安装与扫码配对
 
-适用 Android 0.2.16 / Windows 0.4.18 · 2026-11-01
+适用 Android 0.2.16 / Windows 0.4.19 · 2026-11-01
 
 [首页](../README.md) · [下载](https://app.leftseinem.dpdns.org/) · [功能图解](FEATURES.md)
 
