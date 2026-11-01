@@ -1,6 +1,6 @@
 # 安装与扫码配对
 
-适用 Android 0.2.16 / Windows 0.4.17 · 2026-11-01
+适用 Android 0.2.16 / Windows 0.4.18 · 2026-11-01
 
 [首页](../README.md) · [下载](https://app.leftseinem.dpdns.org/) · [功能图解](FEATURES.md)
 
@@ -12,7 +12,9 @@ Windows x64 电脑、Android 6.0 或以上手机，以及手机能访问的电�
 
 下载 Windows Setup 安装包，默认安装到 D:\Software\MydexMobileApp；没有 D 盘可在安装界面选择其他可写目录。安装包自带运行环境，不创建桌面快捷方式，可从开始菜单打开 Mydex。便携 ZIP 需完整解压后启动。
 
-使用 Claude Desktop 的原会话时，在 Mydex「工具接入」点击「安装 Claude 兼容桥」，按提示先退出 Claude；安装前会检查程序结构并备份原文件。可在同一页面点击「还原 Claude 原版」。Claude 更新后可能需要重新适配；修改后的 Claude 程序不再保留厂商签名。Windows Claude Desktop 2.42304.0 的原会话续聊曾实测，一键安装与还原则在原文件副本上验证；其他版本需要实际验证。
+在 Mydex「工具接入」选择 Claude Desktop、DeepSeek Harness、ZCode 或 Gemini CLI，可安装兼容桥；请先退出对应工具。安装前会检查程序结构并备份原文件，同一位置可还原由 Mydex 安装的桥。Kimi Code 使用原有本地接口，无需安装桥。修改后的程序可能失去厂商签名；软件更新后可能需要重新适配。此前另行安装的桥不能用此处的新备份还原。
+
+DeepSeek Harness、Kimi Code、ZCode 和 Claude Desktop 的原会话曾在本机实测；本次一键安装和还原使用各工具的原文件副本验证，其他版本需实际检查。Gemini CLI 的桥仅连接当前交互窗口已有会话。Claude Code 命令行和 OpenClaw 尚未接通原会话发送。
 
 ![连接概览](images/desktop-overview.png)
 

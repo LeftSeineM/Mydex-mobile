@@ -1,8 +1,12 @@
 # 更新与版本
 
-当前版本：Android 0.2.16（19） / Windows 0.4.17 / Mac 测试版 0.5.1-preview.5。
+当前版本：Android 0.2.16（19） / Windows 0.4.18 / Mac 测试版 0.5.1-preview.5。
 
 [下载最新版本](https://app.leftseinem.dpdns.org/) · [首页](../README.md)
+
+## Windows 0.4.18
+
+工具接入增加 DeepSeek Harness、ZCode 和 Gemini CLI 的兼容桥安装与还原入口，并提供 Kimi 接入检查；Claude Code 命令行和 OpenClaw 的原会话发送仍未接通。安装与还原已用原始文件副本测试，其他版本需要实际验证。
 
 ## Windows 0.4.17
 
