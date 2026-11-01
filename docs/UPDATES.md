@@ -2,7 +2,7 @@
 
 当前版本：Android 0.2.16（19） / Windows 0.4.17 / Mac 测试版 0.5.1-preview.5。
 
-[下载最新版本](https://github.com/LeftSeineM/Mydex-mobile/releases/latest) · [首页](../README.md)
+[下载最新版本](https://app.leftseinem.dpdns.org/) · [首页](../README.md)
 
 ## Windows 0.4.17
 

@@ -2,7 +2,7 @@
 
 适用 Android 0.2.16 / Windows 0.4.17 · 2026-11-01
 
-[首页](../README.md) · [下载](https://github.com/LeftSeineM/Mydex-mobile/releases/latest) · [功能图解](FEATURES.md)
+[首页](../README.md) · [下载](https://app.leftseinem.dpdns.org/) · [功能图解](FEATURES.md)
 
 ## 1. 准备电脑和手机
 
