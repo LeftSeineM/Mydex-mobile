@@ -3,11 +3,11 @@
 # Mydex
 ### 把电脑上的编程对话，带到手机上
 
-**Android 0.2.15 · Windows 0.4.15 · 扫码配对 · 多电脑 · 多工具 · 折叠屏**
+**Android 0.2.16 · Windows 0.4.16 · 扫码配对 · 多电脑 · 多工具 · 折叠屏**
 
-[下载 Android APK](https://github.com/LeftSeineM/Mydex-mobile/releases/download/v0.2.15/Mydex-0.2.15-light.apk) · [下载 Windows 安装包](https://github.com/LeftSeineM/Mydex-mobile/releases/download/desktop-v0.4.15/Mydex-0.4.15-Setup.exe) · [全部版本](https://github.com/LeftSeineM/Mydex-mobile/releases)
+[下载 Android APK](https://github.com/LeftSeineM/Mydex-mobile/releases/download/v0.2.16/Mydex-0.2.16-light.apk) · [下载 Windows 安装包](https://github.com/LeftSeineM/Mydex-mobile/releases/download/desktop-v0.4.16/Mydex-0.4.16-Setup.exe) · [全部版本](https://github.com/LeftSeineM/Mydex-mobile/releases)
 
-[Mac 补丁版 / 测试版下载](https://app.leftseinem.com/macos.html) · 补丁版需先在电脑打开对话；测试版尝试自动载入与手机新建，首次需授权、未真机验证。
+[Mac 补丁版 / 测试版下载](https://app.leftseinem.dpdns.org/macos.html) · 补丁版需先在电脑打开对话；测试版尝试自动载入与手机新建，首次需授权、未真机验证。
 
 [第一次使用](docs/GETTING-STARTED.md) · [完整功能图解](docs/FEATURES.md) · [全部页面截图](docs/SCREENSHOTS.md) · [更新与常见问题](docs/UPDATES.md)
 
@@ -17,7 +17,7 @@ Mydex 是连接你自己电脑的手机工作台。在手机上选择电脑、�
 
 本仓库公开提供**软件下载、使用手册、截图和问题反馈**。应用源码独立维护于私有仓库。本项目不是 OpenAI、Anthropic、Google、月之暗面、DeepSeek 或智谱的官方客户端。
 
-Android 0.2.15：无需 Tailscale 账号，扫码后优先局域网与当前地址直连，无法直连时通过小主机提供的加密备用通道连接。小主机离线时，同一局域网仍可直连；跨网络连接不保证可用。
+Android 0.2.16：无需 Tailscale 账号，扫码后优先局域网与当前地址直连，无法直连时通过小主机提供的加密备用通道连接。小主机离线时，同一局域网仍可直连；跨网络连接不保证可用。
 
 <small>使用 VPN 时建议选择规则／分流模式；若无法连接，请关闭全局／TUN 模式后重试。</small>
 
@@ -33,7 +33,7 @@ Android 0.2.15：无需 Tailscale 账号，扫码后优先局域网与当前地�
 
 ## 网页版：字号记忆与设备管理
 
-网页版登录页和会话设置均支持 60%–200% 字号，设置只保存在当前浏览器，不随账号同步到其他手机。电脑选择框旁可删除绑定，电脑文件和原对话不受影响。Windows 0.4.15 起重复扫码复用已有电脑记录。网页版已开放邮箱验证码注册，登录后支持网页内扫码或相册识别配对。[网页版说明](docs/WEB.md)。
+网页版登录页和会话设置均支持 60%–200% 字号，设置只保存在当前浏览器，不随账号同步到其他手机。电脑选择框旁可删除绑定，电脑文件和原对话不受影响。Windows 0.4.16 起重复扫码复用已有电脑记录。网页版已开放邮箱验证码注册，登录后支持网页内扫码或相册识别配对。[网页版说明](docs/WEB.md)。
 
 <table><tr><th>统一中英文字体 · 75% 字号</th><th>删除电脑绑定</th></tr><tr><td><img src="docs/images/web-projects-75.png" width="300" /></td><td><img src="docs/images/web-delete-computer.png" width="300" /></td></tr></table>
 
@@ -117,9 +117,9 @@ Android 0.2.15：无需 Tailscale 账号，扫码后优先局域网与当前地�
 
 更新：2026-11-01，网页版本 2026.11.01.4。
 
-1. [打开网页版](https://app.leftseinem.com/connect/)，用自己的邮箱验证注册。已有账号可选择邮箱验证码登录或密码登录。
+1. [打开网页版](https://app.leftseinem.dpdns.org/connect/)，用自己的邮箱验证注册。已有账号可选择邮箱验证码登录或密码登录。
 2. 电脑打开 Mydex → 配对手机 → 网页版，生成二维码。
 3. 手机网页点击“扫描电脑配对码”，也可从相册读取；核对确认码后绑定。
 4. 电脑在线后打开会话。相同账号换设备保留绑定，历史对话从自己的在线电脑加载，不同账号隔离。
 
-验证码十分钟内有效且仅用一次。浏览器完整链路及账号隔离测试通过；手机物理摄像头仍待真机复测。详见[网页教程](https://app.leftseinem.com/apple-guide.html)。
+验证码十分钟内有效且仅用一次。浏览器完整链路及账号隔离测试通过；手机物理摄像头仍待真机复测。详见[网页教程](https://app.leftseinem.dpdns.org/apple-guide.html)。
