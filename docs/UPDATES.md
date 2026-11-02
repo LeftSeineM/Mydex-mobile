@@ -1,8 +1,16 @@
 # 更新与版本
 
-当前版本：Android 0.2.16（19） / Windows 0.4.19 / Mac 测试版 0.5.1-preview.5。
+当前版本：Android 0.2.17（20） / Windows 0.4.22 / Mac 测试版 0.5.1-preview.5。
 
 [下载最新版本](https://app.leftseinem.dpdns.org/) · [首页](../README.md)
+
+## Windows 0.4.22
+
+修复商店版 Claude 写入 WindowsApps 时 EPERM 失败：安装按钮自动创建可写程序副本、沿用已有数据并启动，无需手动路径或模型配置。原程序和会话数据保留；安装文件与接口连接状态分开核验。包含自动发现、失败重试与诊断改进。隔离安装、还原、启动参数测试通过，商店版真实账号续聊待用户实测。
+
+## Windows 0.4.20 / Android 0.2.17
+
+加入已有侧聊、子 Agent 状态和原生记录导航。详见 [侧边聊天](RELATED-CHATS.md)。
 
 ## Windows 0.4.19
 
