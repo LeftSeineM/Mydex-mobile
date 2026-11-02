@@ -12,7 +12,7 @@ Mydex 连接你自己的电脑，让你在手机上查看项目和已有对话�
 
 ## 快速开始
 
-1. **在电脑上安装 Mydex。** 打开 [下载页面](https://app.leftseinem.dpdns.org/)，选择 Windows 或 Mac 版本。建议把下面这段话交给电脑上的 AI 助手，协助安装和检查：
+1. **在电脑上安装 Mydex。** 打开 [下载页面](https://app.leftseinem.dpdns.org/)，选择 Windows、Mac 或 Linux 预览版。建议把下面这段话交给电脑上的 AI 助手，协助安装和检查：
 
    > 请从 https://app.leftseinem.dpdns.org/ 下载适合这台电脑的 Mydex，安装到我选择的位置并保留已有配置。检查 Coding 工具和原会话的接入，问我使用手机网页版还是 Android 应用版，再启动连接并打开对应配对二维码。需要登录、授权或扫码时告诉我，不要泄露密钥；未实际连通不要说成功。
 
@@ -53,3 +53,15 @@ Mydex 连接你自己的电脑，让你在手机上查看项目和已有对话�
 反馈时请说明使用的工具、操作步骤和错误提示；截图中请遮盖访问令牌、API Key 和配对信息。
 
 本仓库公开提供下载、教程和截图；应用源码独立维护于私有仓库。Mydex 不是相关 AI 工具厂商的官方客户端。
+
+## Linux 预览版
+
+[官网下载与配对教程](https://app.leftseinem.dpdns.org/linux.html) · [GitHub 安装包](https://github.com/LeftSeineM/Mydex-mobile/releases/tag/linux-v0.1.0-preview.3) · [详细说明](docs/LINUX.md)
+
+0.1.0-preview.3（x86-64）：托盘、登录后自启、扫码配对、签名检查更新；Ubuntu 24.04 虚拟图形桌面完成 Codex 原会话与 DSH Web 的三轮双向续聊。Codex 需先在电脑打开目标会话；DSH 首次连接本机启动地址。手机物理摄像头及所有发行版未逐一测试。
+
+![Linux 连接器与托盘](media/linux/linux-tray.png)
+
+![Codex 原会话双向续聊](media/linux/linux-codex.png)
+
+![DSH 原会话双向续聊](media/linux/linux-dsh.png)
