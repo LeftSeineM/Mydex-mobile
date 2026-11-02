@@ -8,6 +8,9 @@
 
 模拟内容的手机和折叠屏组件截图；[对应功能与限制](RELATED-CHATS.md)。
 
+<img src="images/side-entry-phone.png" width="340" />
+<img src="images/side-picker-phone.png" width="340" />
+
 <img src="images/related-agents-phone.png" width="340" />
 <img src="images/related-child-phone.png" width="340" />
 <img src="images/related-agents-foldable.png" width="800" />
