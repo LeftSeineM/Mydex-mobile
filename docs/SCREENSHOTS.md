@@ -4,6 +4,14 @@
 
 覆盖现有可公开的手机、折叠屏、电脑页面与工具测试场景。重复迭代、含私人对话或凭据的原始开发截图保留在本地，不直接公开。尚未取得的真机相机截图不使用模拟图代替。部分历史页面版本标签较旧，以最新安装包和版本说明为准。
 
+## Codex 侧聊与子 Agent
+
+模拟内容的手机和折叠屏组件截图；[对应功能与限制](RELATED-CHATS.md)。
+
+<img src="images/related-agents-phone.png" width="340" />
+<img src="images/related-child-phone.png" width="340" />
+<img src="images/related-agents-foldable.png" width="800" />
+
 ## 手机项目和最近对话
 
 Flutter 演示数据页面
