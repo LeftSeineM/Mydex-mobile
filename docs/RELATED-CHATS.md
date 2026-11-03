@@ -2,7 +2,9 @@
 
 [安装与配对](GETTING-STARTED.md) · [下载](https://app.leftseinem.dpdns.org/)
 
-适用：Android 0.2.19 / Windows 0.4.20 及以上。Mac、Linux 现有安装包尚未包含本页全部功能。
+适用：Android 0.2.19 / Windows 0.4.24 及以上。Mac、Linux 现有安装包尚未包含本页全部功能。
+
+电脑端 0.4.24 修复历史侧聊混入其他会话的问题，手机 Android 0.2.19 可继续使用。请更新实际连接的那台 Windows 电脑，再刷新侧聊列表。历史侧聊按本机真实父会话索引筛选，临时侧聊经桌面确认归属；无法确认关系的条目不会显示。
 
 ## 打开桌面已有侧聊
 
