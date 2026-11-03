@@ -12,6 +12,8 @@ Mydex 连接你自己的电脑，让你在手机上查看项目和已有对话�
 
 Windows 最新版 **0.4.23**：工具页明确显示连接桥方式和能力限制，支持一键还原程序备份或删除兼容副本，保留原账号和聊天记录。[桥接与恢复说明](docs/BRIDGES.md)。
 
+Mac 最新预览版 **0.5.2-preview.1** 内置 DeepSeek 连接维护；iPhone 使用网页，首次刷新后启用自动版本检查提示。[Apple安装、扫码和功能范围](docs/APPLE.md)。
+
 ## 快速开始
 
 1. **在电脑上安装 Mydex。** 打开 [下载页面](https://app.leftseinem.dpdns.org/)，选择 Windows、Mac 或 Linux 预览版。建议把下面这段话交给电脑上的 AI 助手，协助安装和检查：

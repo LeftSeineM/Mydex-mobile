@@ -1,8 +1,12 @@
 # 更新与版本
 
-当前版本：Android 0.2.19 / Windows 0.4.23 / Mac 测试版 0.5.1-preview.5。
+当前版本：Android 0.2.19 / Windows 0.4.23 / Mac 测试版 0.5.2-preview.1。
 
 [下载最新版本](https://app.leftseinem.dpdns.org/) · [首页](../README.md)
+
+## Mac 0.5.2-preview.1 / 网页自动更新提示
+
+内置DeepSeek原会话自动发现及连接维护，无需另装Python桥。Mac设置增加按芯片架构检查、下载及打开已校验更新包；配对文案明确在手机网页中扫码。iPhone/纯血鸿蒙网页版自动检查更新并提示，由用户确认刷新，保留账号存储。双架构构建与打包引擎协议测试通过，未访问用户Mac或测试私人会话发送。完整Windows功能对齐仍有限制，见[Apple说明](APPLE.md)。
 
 ## Windows 0.4.23
 
