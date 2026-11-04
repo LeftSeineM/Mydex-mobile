@@ -1,0 +1,13 @@
+{
+  "version": "0.2.22",
+  "versionCode": 28,
+  "size": 51713558,
+  "sha256": "c110f1ecb87e56dc894fc40b205d884f725ad7005f27a0129bc054fef8b554cc",
+  "url": "https://app.leftseinem.dpdns.org/downloads/Mydex-0.2.22-light.apk",
+  "notes": [
+    "统一从 Mydex 发布站检查更新，无需电脑在线或先升级电脑",
+    "增加断点续传及安装包身份校验",
+    "保留本机已启用的私测入口，普通用户默认隐藏",
+    "增加 Codex 额外余额显示，需电脑端0.4.26"
+  ]
+}

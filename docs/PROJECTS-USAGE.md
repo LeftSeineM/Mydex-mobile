@@ -1,6 +1,6 @@
 # 新对话项目选择与额度查询
 
-适用 Android 0.2.21 / Web 0.2.21 / Windows 0.4.25。Mac、Linux 现有安装包尚未包含本次额度接口。
+适用 Android 0.2.22 / Web 0.2.22 / Windows 0.4.26。Mac、Linux 现有安装包尚未包含本次额度接口。
 
 新建对话后，在输入框上方的「新对话的项目」选择当前电脑上的 Codex 项目，再发送指令。从已有对话点击新建，会继承其所属项目；也可选择不指定项目。选项只包含当前电脑、当前工具的项目。项目路径由电脑维护，不需要在手机手写目录。
 
@@ -13,3 +13,5 @@ Claude Desktop 与 Claude Code 可能登录不同账号，本版本不会将二�
 <img src="images/subscription-usage.png" width="340" alt="订阅剩余和已用比例演示，非真实账号数据" />
 
 本机 Codex 查询已实测；Claude 查询经过模拟接口、凭据隔离和错误处理测试，尚未完成真实 Claude 订阅账号验证。以上截图为演示数据。设计参考 [CC Switch 额度查询说明](https://github.com/farion1231/cc-switch/blob/main/docs/user-manual/en/2-providers/2.5-usage-query.md)，独立实现，未执行 CC Switch 自定义脚本。
+
+Windows 0.4.26 修复 Codex 官方 CLI 版本目录消失后的重新识别。额外额度余额按接口原始字符串显示，不擅自标注币种；接口没有返回时不推算。本机此前因旧路径失效导致查询失败，修复路径并重新载入连接服务后，实际鉴权接口返回可用订阅额度。小主机若返回404，需先升级其电脑端到支持额度接口的版本。

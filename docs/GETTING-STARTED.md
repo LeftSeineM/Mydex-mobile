@@ -1,6 +1,6 @@
 # 安装与扫码配对
 
-适用 Android 0.2.21 / Windows 0.4.25 · 2026-11-03
+适用 Android 0.2.22 / Windows 0.4.26 · 2026-11-03
 
 [首页](../README.md) · [下载](https://app.leftseinem.dpdns.org/) · [功能图解](FEATURES.md)
 
@@ -64,7 +64,7 @@ DeepSeek Harness、Kimi Code、ZCode 和 Claude Desktop 的原会话曾在本机
 
 Codex 的已有侧聊可从顶部蓝色「侧边聊天」文字打开；子 Agent 活动可展开查看。[侧聊与子 Agent 说明](RELATED-CHATS.md)。新建侧聊仍需在电脑上进行。
 
-手机设置 → 检查更新 → 下载 → 按系统提示确认安装。更新入口来自当前连接的电脑；该电脑需提供新版安装包。电脑端从 Releases 下载新版安装包覆盖安装，保留原数据目录。
+手机设置 → 检查更新 → 下载 → 按系统提示确认安装。从 Mydex 统一更新站检查和下载，无需连接电脑。旧版需先覆盖安装一次 0.2.22 或以上，才会切换到新逻辑。电脑端从 Releases 下载新版安装包覆盖安装，保留原数据目录。
 
 ## 配对失败怎么办
 
