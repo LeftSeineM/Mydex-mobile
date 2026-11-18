@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "product": "mydex-agent",
+  "version": "0.1.9",
+  "assets": {
+    "win32-x64": {
+      "url": "https://app.leftseinem.com/downloads/Mydex-Agent-0.1.9-win32-x64.zip",
+      "size": 43149500,
+      "sha256": "eb37b079e90ee83210709798c5dfa2954feeda0d44b144d87deb4b565bbb1811",
+      "preview": false
+    },
+    "linux-x64": {
+      "url": "https://app.leftseinem.com/downloads/Mydex-Agent-0.1.9-linux-x64.zip",
+      "size": 52539415,
+      "sha256": "342339368949208759a8e59da0ac3d00f4bbe79fdbc9105b83b06f41009c5007",
+      "preview": true
+    },
+    "linux-arm64": {
+      "url": "https://app.leftseinem.com/downloads/Mydex-Agent-0.1.9-linux-arm64.zip",
+      "size": 52220782,
+      "sha256": "c0da77da2edb48300aea4b3f4d0892652159945b85c0e81b828fce0a0915b406",
+      "preview": true
+    },
+    "darwin-x64": {
+      "url": "https://app.leftseinem.com/downloads/Mydex-Agent-0.1.9-darwin-x64.zip",
+      "size": 48571727,
+      "sha256": "ab433f03fb5adaa6ce11e039e056d406fcdff08d5b5985b780b54fe55026c9aa",
+      "preview": true
+    },
+    "darwin-arm64": {
+      "url": "https://app.leftseinem.com/downloads/Mydex-Agent-0.1.9-darwin-arm64.zip",
+      "size": 47211123,
+      "sha256": "3edc0ef10c9889035afa38c494ec682a084e831571c7da922248d9429aeb9d44",
+      "preview": true
+    }
+  },
+  "payload": "eyJzY2hlbWFWZXJzaW9uIjoxLCJwcm9kdWN0IjoibXlkZXgtYWdlbnQiLCJ2ZXJzaW9uIjoiMC4xLjkiLCJhc3NldHMiOnsid2luMzIteDY0Ijp7InVybCI6Imh0dHBzOi8vYXBwLmxlZnRzZWluZW0uY29tL2Rvd25sb2Fkcy9NeWRleC1BZ2VudC0wLjEuOS13aW4zMi14NjQuemlwIiwic2l6ZSI6NDMxNDk1MDAsInNoYTI1NiI6ImViMzdiMDc5ZTkwZWU4MzIxMDcwOTc5OGM1ZGZhMjk1NGZlZWRhMGQ0NGIxNDRkODdkZWI0YjU2NWJiYjE4MTEiLCJwcmV2aWV3IjpmYWxzZX0sImxpbnV4LXg2NCI6eyJ1cmwiOiJodHRwczovL2FwcC5sZWZ0c2VpbmVtLmNvbS9kb3dubG9hZHMvTXlkZXgtQWdlbnQtMC4xLjktbGludXgteDY0LnppcCIsInNpemUiOjUyNTM5NDE1LCJzaGEyNTYiOiIzNDIzMzkzNjg5NDkyMDg3NTlhOGU1OWRhMGFjM2QwMGY0YmJlNzlmZGJjOTEwNWI4M2IwNmY0MTAwOWM1MDA3IiwicHJldmlldyI6dHJ1ZX0sImxpbnV4LWFybTY0Ijp7InVybCI6Imh0dHBzOi8vYXBwLmxlZnRzZWluZW0uY29tL2Rvd25sb2Fkcy9NeWRleC1BZ2VudC0wLjEuOS1saW51eC1hcm02NC56aXAiLCJzaXplIjo1MjIyMDc4Miwic2hhMjU2IjoiYzBkYTc3ZGEyZWRiNDgzMDBhZWE0YjNmNGQwODkyNjUyMTU5OTQ1Yjg1YzBlODFiODI4ZmNlMGEwOTE1YjQwNiIsInByZXZpZXciOnRydWV9LCJkYXJ3aW4teDY0Ijp7InVybCI6Imh0dHBzOi8vYXBwLmxlZnRzZWluZW0uY29tL2Rvd25sb2Fkcy9NeWRleC1BZ2VudC0wLjEuOS1kYXJ3aW4teDY0LnppcCIsInNpemUiOjQ4NTcxNzI3LCJzaGEyNTYiOiJhYjQzM2YwM2ZiNWFkYWE2Y2UxMWUwMzllMDU2ZDQwNmZjZGZmMDhkNWI1OTg1Yjc4MGI1NGZlNTUwMjZjOWFhIiwicHJldmlldyI6dHJ1ZX0sImRhcndpbi1hcm02NCI6eyJ1cmwiOiJodHRwczovL2FwcC5sZWZ0c2VpbmVtLmNvbS9kb3dubG9hZHMvTXlkZXgtQWdlbnQtMC4xLjktZGFyd2luLWFybTY0LnppcCIsInNpemUiOjQ3MjExMTIzLCJzaGEyNTYiOiIzZWRjMGVmMTBjOTg4OTAzNWFmYTM4YzQ5NGVjNjgyYTA4NGU4MzE1NzFjN2RhOTIyMjQ4ZDk0MjlhZWI5ZDQ0IiwicHJldmlldyI6dHJ1ZX19fQ==",
+  "signature": "Y5Zi7wvPWtyvMc5orvNRdqgV4CV2iPXg6JB8p171v6vjF+isLow7FCw9/7Z5iZVNTAc2VJgKPhOg94diOAV3Dw=="
+}

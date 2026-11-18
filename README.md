@@ -10,11 +10,13 @@
 
 Mydex 连接你自己的电脑，让你在手机上查看项目和已有对话，跟进任务并与已适配的工具交互。模型账号、API 配置和任务执行留在电脑端。
 
-Windows **Mydex Agent 0.1.8** 可自动识别 Codex 桌面已连接的 SSH 远程会话。手机配对这台电脑后即可查看，沿用已有 App。远程会话当前支持只读查看。[下载与升级教程](https://app.leftseinem.com/agent-guide.html)。
-
 Windows 最新版 **0.4.26**：工具页明确显示连接桥方式和能力限制，支持一键还原程序备份或删除兼容副本，保留原账号和聊天记录。[桥接与恢复说明](docs/BRIDGES.md)。
 
 Mac 最新预览版 **0.5.2-preview.2** 内置 DeepSeek 连接维护和一键安装重启更新；iPhone 使用网页，首次刷新后启用自动版本检查提示。[Apple安装、扫码和功能范围](docs/APPLE.md)。
+
+## 推荐：Mydex-agent 安装
+
+Windows、Linux、macOS 共用一段安装指令，自动识别系统与 CPU。独立后台，保留现有桌面端；[复制安装指令与教程](docs/AGENT.md) · [按系统下载安装包](https://app.leftseinem.com/agent-guide.html#downloads)。Linux / macOS 为预览，功能范围见教程。
 
 ## 快速开始
 
